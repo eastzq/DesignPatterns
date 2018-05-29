@@ -1,5 +1,5 @@
 package com.eastzq.designpatterns.creational.factory.simple;
 
-public class AbstractProduct {
-
+public abstract class AbstractProduct {
+	public abstract void use();
 }
