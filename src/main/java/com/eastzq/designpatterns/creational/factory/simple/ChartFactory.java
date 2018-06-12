@@ -13,6 +13,11 @@ public class ChartFactory {
 		return chart;
 	}
 	public static void main(String[] args) {
-		ChartFactory.getChart("pie").display();
+		double s = 0;
+		double p = 0.18;
+		for(int i=1;i<9;i++) {
+			s+=p*Math.pow(1.18, i-1);
+		}
+		System.out.println(s);
 	}
 }
